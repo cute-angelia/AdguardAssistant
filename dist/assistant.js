@@ -5523,7 +5523,7 @@ function IframeController() {
   };
 
   var hideElementsByPath = function hideElementsByPath(selectedPath, styleID) {
-    if (!selectedPath) {
+    if (!selectedPath || true) {
       return false;
     }
 
